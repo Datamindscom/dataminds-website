@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>DataMinds</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAV -->
+<header class="nav">
+  <div class="logo">DataMinds</div>
+  <button onclick="openPopup()">Book Free Call</button>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <h1>Unlock the Power of Your Data</h1>
+  <p>We help businesses transform raw data into powerful insights that drive smarter decisions and real growth.</p>
+  <button onclick="openPopup()">Get Started</button>
+</section>
+
+<!-- ABOUT -->
+<section class="about">
+  <h2>About Us</h2>
+  <p>
+    DataMinds is a data-driven solutions company focused on helping businesses unlock the full potential of their data. 
+    We specialize in building intelligent systems, analyzing complex datasets, and delivering insights that empower smarter, faster decision-making. 
+    Our goal is to help clients stay ahead in a competitive digital world by turning data into a strategic advantage.
+  </p>
+</section>
+
+<!-- SERVICES -->
+<section>
+  <h2>What We Do</h2>
+
+  <div class="cards">
+    <div class="card">
+      <h3>Data Analysis</h3>
+      <p>Deep insights into your business performance.</p>
+    </div>
+
+    <div class="card">
+      <h3>AI Solutions</h3>
+      <p>Automate and optimize with intelligent systems.</p>
+    </div>
+
+    <div class="card">
+      <h3>Consulting</h3>
+      <p>Expert guidance to grow your business.</p>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section>
+  <h2>What Clients Say</h2>
+
+  <div class="testimonial">
+    "DataMinds helped us understand our data like never before."
+  </div>
+
+  <div class="testimonial">
+    "Professional, fast, and incredibly insightful."
+  </div>
+
+  <div class="testimonial">
+    "A game changer for our business growth."
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta">
+  <h2>Ready to Work With Us?</h2>
+  <p>Book a free consultation and take the first step.</p>
+  <button onclick="openPopup()">Book Now</button>
+</section>
+
+<!-- POPUP -->
+<div id="popup" class="popup">
+  <div class="popup-content">
+    <h3>Book a Call</h3>
+
+    <input type="text" id="name" placeholder="Your Name">
+    <input type="email" id="email" placeholder="Your Email">
+
+    <button onclick="submitForm()">Submit</button>
+    <button onclick="closePopup()">Close</button>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
